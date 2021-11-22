@@ -1,4 +1,4 @@
-#**Credit Risk Prediction**
+#Credit Risk Prediction
 Author: Waldy Setiono (waldysetiono@gmail.com)
 
 **Background**: A finance company has been providing loans to people in the past several decades. Sometimes the borrowers can provide repayments without fail, sometimes some other borrowers fail to meet the legal obligations of the loans. Now the company wants to minimize the default rate by approving loan applications more wisely. This project aims to a make predictive model that can help the company assess applicants' decency in getting the loans by learning from past experiences.
