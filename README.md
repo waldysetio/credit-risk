@@ -5723,5 +5723,5 @@ plt.show()
 ```
 
 
-![png](https://github.com/waldysetio/credit-risk/blob/main/images/output_134_0.png)
+![png](https://github.com/waldysetio/credit-risk/blob/main/images/output_140_0.png)
 
