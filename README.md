@@ -5550,7 +5550,7 @@ metricsplot(accuracy_comparison.Accuracy, accuracy_comparison)
 ```
 
 
-![png](output_124_0.png)
+![png](https://github.com/waldysetio/credit-risk/blob/main/images/output_124_0.png)
 
 
 **Precision**
@@ -5565,7 +5565,7 @@ metricsplot(precision_comparison.Precision, precision_comparison)
 ```
 
 
-![png](output_126_0.png)
+![png](https://github.com/waldysetio/credit-risk/blob/main/images/output_126_0.png)
 
 
 **Recall**
@@ -5580,7 +5580,7 @@ metricsplot(recall_comparison.Recall, recall_comparison)
 ```
 
 
-![png](output_128_0.png)
+![png](https://github.com/waldysetio/credit-risk/blob/main/images/output_128_0.png)
 
 
 **F-score**
