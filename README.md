@@ -944,7 +944,7 @@ plot_stacked_bars(credit_history, "Credit History", legend_="upper left")
 ```
 
 
-![png](output_22_0.png)
+![png](https://github.com/waldysetio/credit-risk/blob/main/images/output_22_0.png)
 
 
 **Loan duration**
@@ -957,7 +957,7 @@ plot_stacked_bars(loan_duration, "Loan Duration (month)", legend_="upper left")
 ```
 
 
-![png](output_24_0.png)
+![png](https://github.com/waldysetio/credit-risk/blob/main/images/output_24_0.png)
 
 
 **Job**
@@ -970,7 +970,7 @@ plot_stacked_bars(job, "Job", legend_="upper left")
 ```
 
 
-![png](output_26_0.png)
+![png](https://github.com/waldysetio/credit-risk/blob/main/images/output_26_0.png)
 
 
 **Employment duration**
@@ -983,7 +983,7 @@ plot_stacked_bars(employment_duration, "Employment Duration (year)", legend_="up
 ```
 
 
-![png](output_28_0.png)
+![png](https://github.com/waldysetio/credit-risk/blob/main/images/output_28_0.png)
 
 
 **Checking status**
@@ -996,7 +996,7 @@ plot_stacked_bars(checking_status, "Checking Status", legend_="upper left")
 ```
 
 
-![png](output_30_0.png)
+![png](https://github.com/waldysetio/credit-risk/blob/main/images/output_30_0.png)
 
 
 **Loan purpose**
@@ -1009,7 +1009,7 @@ plot_stacked_bars(loan_purpose, "Loan Purpose", legend_="upper left")
 ```
 
 
-![png](output_32_0.png)
+![png](https://github.com/waldysetio/credit-risk/blob/main/images/output_32_0.png)
 
 
 **Existing savings**
@@ -5595,7 +5595,7 @@ metricsplot(fscore_comparison.F_score, fscore_comparison)
 ```
 
 
-![png](output_130_0.png)
+![png](https://github.com/waldysetio/credit-risk/blob/main/images/output_130_0.png)
 
 
 ###**Choose a Model**
@@ -5622,7 +5622,7 @@ plt.show(disp)
 ```
 
 
-![png](output_135_0.png)
+![png](https://github.com/waldysetio/credit-risk/blob/main/images/output_135_0.png)
 
 
 **ROC and AUC**
@@ -5723,5 +5723,5 @@ plt.show()
 ```
 
 
-![png](output_140_0.png)
+![png](https://github.com/waldysetio/credit-risk/blob/main/images/output_134_0.png)
 
