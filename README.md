@@ -5,7 +5,7 @@ Author: Waldy Setiono (waldysetiono@gmail.com)
 
 **Data**: The data used in this project is from [IBM Github page]((https://github.com/IBM)).
 
-##**Data Wrangling and Exploratory Data Analysis**
+## Data Wrangling and Exploratory Data Analysis
 
 **Importing packages**
 
@@ -904,7 +904,7 @@ data.describe(include=['object'])
 
 
 
-###**Data Visualization**
+### Data Visualization
 
 Let's see how many customers who have chance of default on the loan and how many customers whose loans will be paid off based on some of the features.
 
@@ -1035,7 +1035,7 @@ plot_stacked_bars(current_residence_duration, "Current Residence Duration", lege
 ```
 
 
-![png](output_36_0.png)
+![png](https://github.com/waldysetio/credit-risk/blob/main/images/output_36_0.png)
 
 
 **Domestic or foreign worker**
@@ -1048,7 +1048,7 @@ plot_stacked_bars(foreign_worker, "Foreign Worker", legend_="upper left")
 ```
 
 
-![png](output_38_0.png)
+![png](https://github.com/waldysetio/credit-risk/blob/main/images/output_38_0.png)
 
 
 **Housing**
@@ -1061,7 +1061,7 @@ plot_stacked_bars(housing, "Housing", legend_="upper left")
 ```
 
 
-![png](output_40_0.png)
+![png](https://github.com/waldysetio/credit-risk/blob/main/images/output_40_0.png)
 
 
 **Property ownership**
@@ -1074,7 +1074,7 @@ plot_stacked_bars(owns_property, "Owns Property", legend_="upper left")
 ```
 
 
-![png](output_42_0.png)
+![png](https://github.com/waldysetio/credit-risk/blob/main/images/output_42_0.png)
 
 
 **Age**
@@ -1087,10 +1087,10 @@ plot_stacked_bars(age, "Age", legend_="upper left")
 ```
 
 
-![png](output_44_0.png)
+![png](https://github.com/waldysetio/credit-risk/blob/main/images/output_44_0.png)
 
 
-###**Data Cleaning**
+### Data Cleaning
 
 
 ```python
@@ -1485,7 +1485,7 @@ data[data.duplicated()]
 
 
 
-##**Feature Engineering and Selection**
+## Feature Engineering and Selection
 
 **One-hot encoding**
 
@@ -1535,7 +1535,7 @@ train["ForeignWorker"]=train["ForeignWorker"].replace(["no", "yes"],[0,1])
 train["Risk"]=train["Risk"].replace(["No Risk", "Risk"],[0,1])
 ```
 
-###**Make categorical data and dummy variables**
+### Make categorical data and dummy variables
 
 
 ```python
@@ -3863,7 +3863,7 @@ train
 
 
 
-###**Visualize features distribution**
+### Visualize features distribution
 
 
 ```python
@@ -3881,7 +3881,7 @@ plt.show()
 ```
 
 
-![png](output_70_0.png)
+![png](https://github.com/waldysetio/credit-risk/blob/main/images/output_70_0.png)
 
 
 Let's see the distribution through boxplot to spot outliers.
@@ -3900,7 +3900,7 @@ sns.boxplot(x=train["LoanDuration"], data=train["LoanDuration"])
 
 
 
-![png](output_72_1.png)
+![png](https://github.com/waldysetio/credit-risk/blob/main/images/output_72_1.png)
 
 
 
@@ -3917,7 +3917,7 @@ sns.boxplot(data=train["LoanAmount"], x=train["LoanAmount"])
 
 
 
-![png](output_73_1.png)
+![png](https://github.com/waldysetio/credit-risk/blob/main/images/output_73_1.png)
 
 
 
@@ -3934,7 +3934,7 @@ sns.boxplot(data=train["InstallmentPercent"])
 
 
 
-![png](output_74_1.png)
+![png](https://github.com/waldysetio/credit-risk/blob/main/images/output_74_1.png)
 
 
 
@@ -3951,7 +3951,7 @@ sns.boxplot(data=train["CurrentResidenceDuration"], x=train["CurrentResidenceDur
 
 
 
-![png](output_75_1.png)
+![png](https://github.com/waldysetio/credit-risk/blob/main/images/output_75_1.png)
 
 
 
@@ -3968,7 +3968,7 @@ sns.boxplot(data=train["Age"], x=train["Age"])
 
 
 
-![png](output_76_1.png)
+![png](https://github.com/waldysetio/credit-risk/blob/main/images/output_76_1.png)
 
 
 **Calculate the correlation of the variables**
@@ -3991,7 +3991,7 @@ plt.show()
 ```
 
 
-![png](output_79_0.png)
+![png](https://github.com/waldysetio/credit-risk/blob/main/images/output_79_0.png)
 
 
 **Address multicollinearity**
@@ -4794,7 +4794,7 @@ train.drop(['ECC_1', 'OL_none'], axis=1)
 
 
 
-###**Remove outliers**
+### Remove outliers
 
 Let's replace outliers with the mean values using Z score.
 
@@ -4858,7 +4858,7 @@ sns.boxplot(x=train["LoanDuration"], data=train["LoanDuration"])
 
 
 
-![png](output_90_1.png)
+![png](https://github.com/waldysetio/credit-risk/blob/main/images/output_90_1.png)
 
 
 As we can see, the outliers of more than 60 in loan duration has been replaced and there are still ones slightly above 50 but it is due to the Z score threshold of 3.
@@ -4877,10 +4877,10 @@ sns.boxplot(data=train["LoanAmount"], x=train["LoanAmount"])
 
 
 
-![png](output_92_1.png)
+![png](https://github.com/waldysetio/credit-risk/blob/main/images/output_92_1.png)
 
 
-##**Modeling and Evaluation**
+## Modeling and Evaluation
 
 **Check the dataframe**
 
@@ -4982,7 +4982,7 @@ from sklearn.model_selection import train_test_split
 X_train, X_test, y_train, y_test = train_test_split(X, y, test_size=0.25, random_state=17)
 ```
 
-###**Modeling**
+### Modeling
 
 
 ```python
@@ -5483,7 +5483,7 @@ MLPmetrics
 
 
 
-###**Models Comparison**
+### Models Comparison
 
 
 ```python
@@ -5598,7 +5598,7 @@ metricsplot(fscore_comparison.F_score, fscore_comparison)
 ![png](https://github.com/waldysetio/credit-risk/blob/main/images/output_130_0.png)
 
 
-###**Choose a Model**
+### Choose a Model
 
 As we can see, there is no single algorithm that tops the other in all metrics but Logistic Regression is always included in the top three in every category. We can choose a model based on what metrics is more important for us. For example, if our focus is to gather positivity correctly (like covid cases) then the model with high sensitivity/recall will suit. If our focus is to know the absence of something then we will prefer model with higher specificity. There are many more possibilities of consideration that can be used related to metrics in choosing the best algorithm for a given problem. In this occasion **Logistic Regression will be the model of this project**.
 
