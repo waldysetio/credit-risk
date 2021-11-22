@@ -1022,7 +1022,7 @@ plot_stacked_bars(existing_savings, "Existing Savings", legend_="upper left")
 ```
 
 
-![png](output_34_0.png)
+![png](https://github.com/waldysetio/credit-risk/blob/main/images/output_34_0.png)
 
 
 **Current residence duration**
